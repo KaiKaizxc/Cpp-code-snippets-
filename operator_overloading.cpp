@@ -21,6 +21,7 @@ int main() {
         std::cin >> v[i];
 
     }
+    std::cout << "I am Kai!" << "\n";
     double sum = 0;
     for (int i =0; i < v.size(); i++) {
         sum += v[i];
