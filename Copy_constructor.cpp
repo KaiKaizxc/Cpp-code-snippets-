@@ -24,6 +24,15 @@ public:
 
 };
 
+void doSomething(Widget b);
+class Widget {
+public:
+    explicit Widget(int x = 0, bool boolean = True);
+};
+
+
+
 int main() {
     // baseically when I want to create a new object based on an already existing object
+    doSomething(27);
 }
